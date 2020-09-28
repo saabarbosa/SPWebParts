@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="8798fd60-d5d2-403c-8f25-54e4c80c356e" Scope="Site" Title="WebPartsTCE Feature1">
+  <ElementManifests>
+    <ElementManifest Location="AtosTipos\Elements.xml" />
+    <ElementFile Location="AtosTipos\AtosTipos.webpart" />
+    <ElementManifest Location="BannerPrincipal\Elements.xml" />
+    <ElementFile Location="BannerPrincipal\BannerPrincipal.webpart" />
+    <ElementManifest Location="BannerPrincipalMenor\Elements.xml" />
+    <ElementFile Location="BannerPrincipalMenor\BannerPrincipalMenor.webpart" />
+    <ElementManifest Location="BannersRotativos\Elements.xml" />
+    <ElementFile Location="BannersRotativos\BannersRotativos.webpart" />
+    <ElementManifest Location="BannersRotativosMPC\Elements.xml" />
+    <ElementFile Location="BannersRotativosMPC\BannersRotativosMPC.webpart" />
+    <ElementManifest Location="Exemplo\Elements.xml" />
+    <ElementFile Location="Exemplo\Exemplo.webpart" />
+    <ElementManifest Location="FaleConoscoMPC\Elements.xml" />
+    <ElementFile Location="FaleConoscoMPC\FaleConoscoMPC.webpart" />
+    <ElementManifest Location="FormAgendaVisitas\Elements.xml" />
+    <ElementFile Location="FormAgendaVisitas\FormAgendaVisitas.webpart" />
+    <ElementManifest Location="Fotos\Elements.xml" />
+    <ElementFile Location="Fotos\Fotos.webpart" />
+    <ElementManifest Location="GaleriaDeFotos\Elements.xml" />
+    <ElementFile Location="GaleriaDeFotos\GaleriaDeFotos.webpart" />
+    <ElementManifest Location="Jurisprudencia\Elements.xml" />
+    <ElementFile Location="Jurisprudencia\Jurisprudencia.webpart" />
+    <ElementManifest Location="NoticiaDetalhes\Elements.xml" />
+    <ElementFile Location="NoticiaDetalhes\NoticiaDetalhes.webpart" />
+    <ElementManifest Location="NoticiaDetalhesLegado\Elements.xml" />
+    <ElementFile Location="NoticiaDetalhesLegado\NoticiaDetalhesLegado.webpart" />
+    <ElementManifest Location="NoticiaListaLegado\Elements.xml" />
+    <ElementFile Location="NoticiaListaLegado\NoticiaListaLegado.webpart" />
+    <ElementManifest Location="NoticiaPrincipal\Elements.xml" />
+    <ElementFile Location="NoticiaPrincipal\NoticiaPrincipal.webpart" />
+    <ElementManifest Location="Noticias\Elements.xml" />
+    <ElementFile Location="Noticias\Noticias.webpart" />
+    <ElementManifest Location="NoticiasLista\Elements.xml" />
+    <ElementFile Location="NoticiasLista\NoticiasLista.webpart" />
+    <ElementManifest Location="Ouvidoria\Elements.xml" />
+    <ElementFile Location="Ouvidoria\Ouvidoria.webpart" />
+    <ElementManifest Location="Resolucoes\Elements.xml" />
+    <ElementFile Location="Resolucoes\Resolucoes.webpart" />
+    <ElementManifest Location="Revista\Elements.xml" />
+    <ElementFile Location="Revista\Revista.webpart" />
+    <ElementManifest Location="Videos\Elements.xml" />
+    <ElementFile Location="Videos\Videos.webpart" />
+    <ElementManifest Location="Pareceres\Elements.xml" />
+    <ElementFile Location="Pareceres\Pareceres.webpart" />
+  </ElementManifests>
+</Feature>

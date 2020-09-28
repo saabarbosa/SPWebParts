@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.Noticias.Noticias, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - Noticias</property>
+        <property name="Description" type="string">Últimas notícias publicas na página inicial</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.BannersRotativosMPC.BannersRotativosMPC, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - BannersRotativosMPC</property>
+        <property name="Description" type="string">Banner rotativo secundário definido na página do MPC</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

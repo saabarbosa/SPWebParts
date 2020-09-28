@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.Ouvidoria.Ouvidoria, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - Ouvidoria</property>
+        <property name="Description" type="string">Formulário de Ouvidoria</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

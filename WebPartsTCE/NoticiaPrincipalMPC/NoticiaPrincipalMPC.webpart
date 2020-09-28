@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.NoticiaPrincipalMPC.NoticiaPrincipalMPC, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - NoticiaPrincipalMPC</property>
+        <property name="Description" type="string">Noticias Principais do MP - Carrossel</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

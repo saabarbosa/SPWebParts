@@ -1,0 +1,7 @@
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\bin\Debug\WebPartsTCE.dll.config
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\bin\Debug\WebPartsTCE.dll
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\bin\Debug\WebPartsTCE.pdb
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\bin\Debug\itextsharp.dll
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\bin\Debug\itextsharp.xml
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\obj\Debug\WebPartsTCE.dll
+C:\WebPartsSharePoint\WebPartsTCE\WebPartsTCE\obj\Debug\WebPartsTCE.pdb

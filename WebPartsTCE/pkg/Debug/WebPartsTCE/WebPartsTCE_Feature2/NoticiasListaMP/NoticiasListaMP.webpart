@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.NoticiasListaMP.NoticiasListaMP, WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - NoticiasListaMP</property>
+        <property name="Description" type="string">Noticias lista MP</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

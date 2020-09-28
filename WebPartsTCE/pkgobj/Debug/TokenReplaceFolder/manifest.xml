@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f592cf3d-4b70-4dda-8a64-b248e39cd095" Title="WebPartsCustomTCE" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="WebPartsTCE.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.AtosTipos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannerPrincipal" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannerPrincipalMenor" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannersRotativos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannersRotativosMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Exemplo" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.FaleConoscoMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.FormAgendaVisitas" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Fotos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.GaleriaDeFotos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Jurisprudencia" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaDetalhes" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaDetalhesLegado" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaListaLegado" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaPrincipal" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Noticias" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiasLista" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Ouvidoria" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Resolucoes" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Revista" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Videos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Pareceres" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.AtosTipos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannerPrincipal" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannerPrincipalMenor" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannersRotativos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.BannersRotativosMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Exemplo" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.FaleConoscoMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.FormAgendaVisitas" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Fotos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.GaleriaDeFotos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Jurisprudencia" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaDetalhes" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaDetalhesLegado" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaListaLegado" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaPrincipal" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Noticias" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiasLista" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Ouvidoria" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Resolucoes" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Revista" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Videos" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.Pareceres" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiasMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiasListaMP" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaDetalhesMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.NoticiaPrincipalMPC" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.ContatoFocco" TypeName="*" />
+        <SafeControl Assembly="WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" Namespace="WebPartsTCE.ContatoEcojan" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="WebPartsTCE_Feature1\Feature.xml" />
+    <FeatureManifest Location="WebPartsTCE_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>

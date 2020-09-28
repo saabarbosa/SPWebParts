@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.NoticiasMPC.NoticiasMPC, WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - NoticiasMPC</property>
+        <property name="Description" type="string">Ultimas noticias do MPC</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

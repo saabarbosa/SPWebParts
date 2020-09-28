@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C6B432D-5DBB-486F-A6D3-827F36FC4771}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebPartsTCE</RootNamespace>
+    <AssemblyName>WebPartsTCE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>DLLs\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Temp\SharePoint 2013 Query Search with the KeywordQuery Class\C#\bin\Debug\Microsoft.Office.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server.Search, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Temp\SharePoint 2013 Query Search with the KeywordQuery Class\C#\bin\Debug\Microsoft.Office.Server.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtosTipos\AtosTipos.ascx.cs">
+      <DependentUpon>AtosTipos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AtosTipos\AtosTipos.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AtosTipos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannerPrincipalMenor\BannerPrincipalMenor.ascx.cs">
+      <DependentUpon>BannerPrincipalMenor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannerPrincipalMenor\BannerPrincipalMenor.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BannerPrincipalMenor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannerPrincipal\BannerPrincipal.ascx.cs">
+      <DependentUpon>BannerPrincipal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannerPrincipal\BannerPrincipal.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BannerPrincipal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannersRotativosMPC\BannersRotativosMPC.ascx.cs">
+      <DependentUpon>BannersRotativosMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannersRotativosMPC\BannersRotativosMPC.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BannersRotativosMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannersRotativos\BannersRotativos.ascx.cs">
+      <DependentUpon>BannersRotativos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BannersRotativos\BannersRotativos.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BannersRotativos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContatoEcojan\ContatoEcojan.ascx.cs">
+      <DependentUpon>ContatoEcojan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContatoEcojan\ContatoEcojan.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContatoEcojan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContatoFocco\ContatoFocco.ascx.cs">
+      <DependentUpon>ContatoFocco.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContatoFocco\ContatoFocco.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContatoFocco.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Exemplo\Exemplo.ascx.cs">
+      <DependentUpon>Exemplo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Exemplo\Exemplo.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Exemplo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FaleConoscoMPC\FaleConoscoMPC.ascx.cs">
+      <DependentUpon>FaleConoscoMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FaleConoscoMPC\FaleConoscoMPC.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaleConoscoMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgendaVisitas\FormAgendaVisitas.ascx.cs">
+      <DependentUpon>FormAgendaVisitas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgendaVisitas\FormAgendaVisitas.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormAgendaVisitas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Fotos\Fotos.ascx.cs">
+      <DependentUpon>Fotos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Fotos\Fotos.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fotos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GaleriaDeFotos\GaleriaDeFotos.ascx.cs">
+      <DependentUpon>GaleriaDeFotos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GaleriaDeFotos\GaleriaDeFotos.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GaleriaDeFotos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Jurisprudencia\Jurisprudencia.ascx.cs">
+      <DependentUpon>Jurisprudencia.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Jurisprudencia\Jurisprudencia.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Jurisprudencia.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaDetalhesLegado\NoticiaDetalhesLegado.ascx.cs">
+      <DependentUpon>NoticiaDetalhesLegado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaDetalhesLegado\NoticiaDetalhesLegado.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiaDetalhesLegado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaDetalhesMPC\NoticiaDetalhesMPC.ascx.cs">
+      <DependentUpon>NoticiaDetalhesMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaDetalhesMPC\NoticiaDetalhesMPC.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiaDetalhesMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaDetalhes\NoticiaDetalhes.ascx.cs">
+      <DependentUpon>NoticiaDetalhes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaDetalhes\NoticiaDetalhes.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiaDetalhes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaListaLegado\NoticiaListaLegado.ascx.cs">
+      <DependentUpon>NoticiaListaLegado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaListaLegado\NoticiaListaLegado.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiaListaLegado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaPrincipalMPC\NoticiaPrincipalMPC.ascx.cs">
+      <DependentUpon>NoticiaPrincipalMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaPrincipalMPC\NoticiaPrincipalMPC.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiaPrincipalMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaPrincipal\NoticiaPrincipal.ascx.cs">
+      <DependentUpon>NoticiaPrincipal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiaPrincipal\NoticiaPrincipal.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiaPrincipal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiasListaMP\NoticiasListaMP.ascx.cs">
+      <DependentUpon>NoticiasListaMP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiasListaMP\NoticiasListaMP.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiasListaMP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiasLista\NoticiasLista.ascx.cs">
+      <DependentUpon>NoticiasLista.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiasLista\NoticiasLista.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiasLista.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiasMPC\NoticiasMPC.ascx.cs">
+      <DependentUpon>NoticiasMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticiasMPC\NoticiasMPC.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoticiasMPC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Noticias\Noticias.ascx.cs">
+      <DependentUpon>Noticias.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Noticias\Noticias.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Noticias.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ouvidoria\Ouvidoria.ascx.cs">
+      <DependentUpon>Ouvidoria.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ouvidoria\Ouvidoria.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ouvidoria.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pareceres\Pareceres.ascx.cs">
+      <DependentUpon>Pareceres.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pareceres\Pareceres.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pareceres.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resolucoes\Resolucoes.ascx.cs">
+      <DependentUpon>Resolucoes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Resolucoes\Resolucoes.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resolucoes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Revista\Revista.ascx.cs">
+      <DependentUpon>Revista.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Revista\Revista.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Revista.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SROuvidoria\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Videos\Videos.ascx.cs">
+      <DependentUpon>Videos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Videos\Videos.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Videos.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="AtosTipos\AtosTipos.webpart" />
+    <None Include="AtosTipos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{69df37d0-96da-4ba2-b7a8-2436b1039592}</SharePointProjectItemId>
+    </None>
+    <None Include="BannerPrincipalMenor\BannerPrincipalMenor.webpart" />
+    <None Include="BannerPrincipalMenor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{50ba3376-5381-4f23-bbb1-80b928f1e00f}</SharePointProjectItemId>
+    </None>
+    <None Include="BannerPrincipal\BannerPrincipal.webpart" />
+    <None Include="BannerPrincipal\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4b05200a-7605-416a-ab0d-54a5ecf15902}</SharePointProjectItemId>
+    </None>
+    <None Include="BannersRotativosMPC\BannersRotativosMPC.webpart" />
+    <None Include="BannersRotativosMPC\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5881b834-7839-420a-95da-ebff366b16a5}</SharePointProjectItemId>
+    </None>
+    <None Include="BannersRotativos\BannersRotativos.webpart" />
+    <None Include="BannersRotativos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{79f79ebf-5350-4078-985b-009028e22772}</SharePointProjectItemId>
+    </None>
+    <None Include="ContatoEcojan\ContatoEcojan.webpart" />
+    <None Include="ContatoEcojan\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dbd8301f-74d9-45ea-bf57-4e9e7970e3b4}</SharePointProjectItemId>
+    </None>
+    <None Include="ContatoFocco\ContatoFocco.webpart" />
+    <None Include="ContatoFocco\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{063921bb-b79d-4c8a-a744-16db144ff7b3}</SharePointProjectItemId>
+    </None>
+    <None Include="Exemplo\Exemplo.webpart" />
+    <None Include="Exemplo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4ed7c52d-dbda-4523-8afa-c073c3c2ea12}</SharePointProjectItemId>
+    </None>
+    <None Include="FaleConoscoMPC\FaleConoscoMPC.webpart" />
+    <None Include="FaleConoscoMPC\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{928bf35b-50f8-46cb-9bd1-8ed885365496}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{70811858-121f-47ee-b174-bdb0d09f4342}</FeatureId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{edb22a0c-c60d-478a-9376-2567321995b4}</FeatureId>
+    </None>
+    <None Include="FormAgendaVisitas\FormAgendaVisitas.webpart" />
+    <None Include="FormAgendaVisitas\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{59eda285-d96e-4c92-950e-8ba551080bbc}</SharePointProjectItemId>
+    </None>
+    <None Include="Fotos\Fotos.webpart" />
+    <None Include="Fotos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cdd58461-c922-466a-be2f-8b21acc0e2b7}</SharePointProjectItemId>
+    </None>
+    <None Include="GaleriaDeFotos\GaleriaDeFotos.webpart" />
+    <None Include="GaleriaDeFotos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c90d812d-50b4-482b-b058-3342cd15ae0a}</SharePointProjectItemId>
+    </None>
+    <None Include="Jurisprudencia\Jurisprudencia.webpart" />
+    <None Include="Jurisprudencia\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8426ff2e-f93f-4a80-88d9-b5ac11362bd2}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="NoticiaDetalhesLegado\NoticiaDetalhesLegado.webpart" />
+    <None Include="NoticiaDetalhesLegado\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f0a92794-df3b-49d5-bc18-36b0055fd7dc}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiaDetalhesMPC\NoticiaDetalhesMPC.webpart" />
+    <None Include="NoticiaDetalhesMPC\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f3165dca-a1b0-4fcd-b17e-08132cbe6184}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiaDetalhes\NoticiaDetalhes.webpart" />
+    <None Include="NoticiaDetalhes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ac69de72-7c73-489f-a248-3ae7f214af7d}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiaListaLegado\NoticiaListaLegado.webpart" />
+    <None Include="NoticiaListaLegado\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cf9b1e91-6867-45eb-a82c-dacecb9b0e1e}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiaPrincipalMPC\NoticiaPrincipalMPC.webpart" />
+    <None Include="NoticiaPrincipalMPC\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{22c9cd2d-8ad9-44b7-88cc-4b8803648da5}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiaPrincipal\NoticiaPrincipal.webpart" />
+    <None Include="NoticiaPrincipal\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{70f81612-1cc9-4958-a727-7e2ddacd6ae5}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiasListaMP\NoticiasListaMP.webpart" />
+    <None Include="NoticiasListaMP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{74c6ba0a-36ab-433c-82f7-ed658e51120c}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiasLista\NoticiasLista.webpart" />
+    <None Include="NoticiasLista\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a9ce80bf-5f63-486c-a4fe-849eba8a01ef}</SharePointProjectItemId>
+    </None>
+    <None Include="NoticiasMPC\NoticiasMPC.webpart" />
+    <None Include="NoticiasMPC\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{eb92be46-c6fc-43d8-929e-45223defa82c}</SharePointProjectItemId>
+    </None>
+    <None Include="Noticias\Noticias.webpart" />
+    <None Include="Noticias\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f623ec72-22b7-40fd-8a66-0ce561b1eb96}</SharePointProjectItemId>
+    </None>
+    <None Include="Ouvidoria\Ouvidoria.webpart" />
+    <None Include="Ouvidoria\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63554e1e-f45c-449f-b287-d4e5c68a0bde}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{f592cf3d-4b70-4dda-8a64-b248e39cd095}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Pareceres\Pareceres.webpart" />
+    <None Include="Pareceres\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{556d19d2-fa3a-4078-bb8a-3f55843dd9d3}</SharePointProjectItemId>
+    </None>
+    <None Include="Resolucoes\Resolucoes.webpart" />
+    <None Include="Resolucoes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af08b318-c272-4052-9859-997fdaa78e7c}</SharePointProjectItemId>
+    </None>
+    <None Include="Revista\Revista.webpart" />
+    <None Include="Revista\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c8bcfb9a-127b-485d-ab90-728d90b2723c}</SharePointProjectItemId>
+    </None>
+    <None Include="Service References\SROuvidoria\Ouvidoria.wsdl" />
+    <None Include="Service References\SROuvidoria\WebPartsTCE.SROuvidoria.EnviarEmailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Videos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1ce0eb3-df98-4875-95fe-25bf31fc20e0}</SharePointProjectItemId>
+    </None>
+    <None Include="Videos\Videos.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AtosTipos\AtosTipos.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>AtosTipos.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="AtosTipos\Elements.xml" />
+    <Content Include="BannerPrincipalMenor\BannerPrincipalMenor.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BannerPrincipalMenor.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BannerPrincipalMenor\Elements.xml" />
+    <Content Include="BannerPrincipal\BannerPrincipal.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BannerPrincipal.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BannerPrincipal\Elements.xml" />
+    <Content Include="BannersRotativosMPC\BannersRotativosMPC.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BannersRotativosMPC.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BannersRotativosMPC\Elements.xml" />
+    <Content Include="BannersRotativos\BannersRotativos.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>BannersRotativos.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="BannersRotativos\Elements.xml" />
+    <Content Include="ContatoEcojan\ContatoEcojan.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>ContatoEcojan.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="ContatoEcojan\Elements.xml" />
+    <Content Include="ContatoFocco\ContatoFocco.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>ContatoFocco.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="ContatoFocco\Elements.xml" />
+    <Content Include="Exemplo\Elements.xml" />
+    <Content Include="Exemplo\Exemplo.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Exemplo.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="FaleConoscoMPC\Elements.xml" />
+    <Content Include="FaleConoscoMPC\FaleConoscoMPC.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>FaleConoscoMPC.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="FormAgendaVisitas\Elements.xml" />
+    <Content Include="FormAgendaVisitas\FormAgendaVisitas.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>FormAgendaVisitas.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Fotos\Elements.xml" />
+    <Content Include="Fotos\Fotos.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Fotos.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="GaleriaDeFotos\Elements.xml" />
+    <Content Include="GaleriaDeFotos\GaleriaDeFotos.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>GaleriaDeFotos.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Jurisprudencia\Elements.xml" />
+    <Content Include="Jurisprudencia\Jurisprudencia.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Jurisprudencia.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiaDetalhesLegado\Elements.xml" />
+    <Content Include="NoticiaDetalhesLegado\NoticiaDetalhesLegado.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiaDetalhesLegado.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiaDetalhesMPC\Elements.xml" />
+    <Content Include="NoticiaDetalhesMPC\NoticiaDetalhesMPC.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiaDetalhesMPC.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiaDetalhes\Elements.xml" />
+    <Content Include="NoticiaDetalhes\NoticiaDetalhes.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiaDetalhes.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiaListaLegado\Elements.xml" />
+    <Content Include="NoticiaListaLegado\NoticiaListaLegado.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiaListaLegado.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiaPrincipalMPC\Elements.xml" />
+    <Content Include="NoticiaPrincipalMPC\NoticiaPrincipalMPC.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiaPrincipalMPC.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiaPrincipal\Elements.xml" />
+    <Content Include="NoticiaPrincipal\NoticiaPrincipal.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiaPrincipal.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiasListaMP\Elements.xml" />
+    <Content Include="NoticiasListaMP\NoticiasListaMP.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiasListaMP.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiasLista\Elements.xml" />
+    <Content Include="NoticiasLista\NoticiasLista.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiasLista.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="NoticiasMPC\Elements.xml" />
+    <Content Include="NoticiasMPC\NoticiasMPC.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>NoticiasMPC.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Noticias\Elements.xml" />
+    <Content Include="Noticias\Noticias.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Noticias.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Ouvidoria\Elements.xml" />
+    <Content Include="Ouvidoria\Ouvidoria.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Ouvidoria.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Pareceres\Elements.xml" />
+    <Content Include="Pareceres\Pareceres.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Pareceres.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resolucoes\Elements.xml" />
+    <Content Include="Resolucoes\Resolucoes.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Resolucoes.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Revista\Elements.xml" />
+    <Content Include="Revista\Revista.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Revista.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Videos\Elements.xml" />
+    <Content Include="Videos\Videos.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Videos.ascx.g.cs</LastGenOutput>
+    </Content>
+    <None Include="Service References\SROuvidoria\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SROuvidoria\configuration.svcinfo" />
+    <None Include="Service References\SROuvidoria\configuration91.svcinfo" />
+    <None Include="Service References\SROuvidoria\Ouvidoria.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SROuvidoria\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f592cf3d-4b70-4dda-8a64-b248e39cd095" solutionId="f592cf3d-4b70-4dda-8a64-b248e39cd095" resetWebServer="false" title="WebPartsCustomTCE" sharePointProductVersion="15.0" name="WebPartsTCE" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="70811858-121f-47ee-b174-bdb0d09f4342" />
+    <featureReference itemId="edb22a0c-c60d-478a-9376-2567321995b4" />
+  </features>
+</package>

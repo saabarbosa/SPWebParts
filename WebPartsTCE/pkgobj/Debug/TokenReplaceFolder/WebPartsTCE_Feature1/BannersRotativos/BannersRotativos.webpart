@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.BannersRotativos.BannersRotativos, WebPartsTCE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc1562493c1a5e46" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - BannersRotativos</property>
+        <property name="Description" type="string">Banner rotativo secundário definido na página inicial</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.NoticiaDetalhesMPC.NoticiaDetalhesMPC, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - NoticiaDetalhesMPC</property>
+        <property name="Description" type="string">Noticias detalhes MPC</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

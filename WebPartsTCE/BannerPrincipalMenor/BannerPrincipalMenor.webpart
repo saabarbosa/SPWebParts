@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WebPartsTCE.BannerPrincipalMenor.BannerPrincipalMenor, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">WebPartsTCE - BannerPrincipalMenor</property>
+        <property name="Description" type="string">Notícias Carrossel da Página Inicial</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
